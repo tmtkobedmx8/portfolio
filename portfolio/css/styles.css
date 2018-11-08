@@ -1,4 +1,12 @@
 body {
-  background-color: #eee !important; }
+  background-color: black !important; }
+
+.main-container .header-description {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20%;
+  text-align: center; }
+.main-container .welcome-header {
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */
