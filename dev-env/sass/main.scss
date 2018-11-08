@@ -1,7 +1,25 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 
-$mycolor: blue;
+$blue: blue;
+$black: black;
+$red: red;
+$teal: teal;
+$gray-light: #eee;
+$white: #fff;
 
 body {
-    background: $mycolor;
+    background: $black;
+}
+
+.main-container {
+	.header-description {
+		max-width: 500px;
+		margin: 0 auto;
+		margin-top: 20%;
+		text-align: center;
+	}
+
+	.welcome-header {
+		color: white;
+	}
 }
